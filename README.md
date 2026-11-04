@@ -24,10 +24,6 @@ Indexed indirect draws as `RhiCommand::Extension`.
 
 Version 0.2.0. Backends do not depend on this crate. Any other feature id or opcode returns unsupported inside the backend.
 
-## Part of Rotex
-
-Rotex is a graphics HAL workspace. See [rotex-dev](https://github.com/rotex-labs/rotex-dev) for the architecture and the other crates.
-
 ## License
 
 Licensed under either of
