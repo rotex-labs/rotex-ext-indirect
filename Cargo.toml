@@ -2,7 +2,7 @@
 name = "rotex-ext-indirect"
 version = "0.2.0"
 edition = "2024"
-license = "MIT"
+license = "MIT OR Apache-2.0"
 description = "Indirect draw extension for Rotex backends"
 repository = "https://github.com/rotexengine/rotex-ext-indirect"
 
