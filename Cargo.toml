@@ -1,0 +1,18 @@
+[package]
+name = "rotex-ext-indirect"
+version = "0.2.0"
+edition = "2024"
+license = "MIT"
+description = "Indirect draw extension for Rotex backends"
+repository = "https://github.com/rotexengine/rotex-ext-indirect"
+
+[features]
+default = []
+vulkan = ["dep:rotex-vulkan"]
+wgpu = ["dep:rotex-wgpu"]
+
+[dependencies]
+rotex-core = { version = "0.2.0" }
+rotex-types = { version = "0.2.0" }
+rotex-vulkan = { version = "0.2.0", optional = true }
+rotex-wgpu = { version = "0.2.0", optional = true }
