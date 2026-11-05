@@ -18,5 +18,5 @@ wgpu = ["dep:rotex-wgpu"]
 [dependencies]
 rotex-core = { version = "0.3.0", git = "https://github.com/rotex-labs/rotex-core", rev = "23ba8931416ce7b604d91604bf421c3b514271d8" }
 rotex-types = { version = "0.3.0", git = "https://github.com/rotex-labs/rotex-core", rev = "23ba8931416ce7b604d91604bf421c3b514271d8" }
-rotex-vulkan = { version = "0.2.0", git = "https://github.com/rotex-labs/rotex-vulkan", rev = "0568bdbe2daf7aed7614dc1cbe63360292bf6179", optional = true }
-rotex-wgpu = { version = "0.2.0", git = "https://github.com/rotex-labs/rotex-wgpu", rev = "e2eafd6a94b8a55578c13152495d54688d8321ac", optional = true }
+rotex-vulkan = { version = "0.2.0", git = "https://github.com/rotex-labs/rotex-vulkan", rev = "f2572880cd7a62774e8d5477c839a19528bc6b7d", optional = true }
+rotex-wgpu = { version = "0.2.0", git = "https://github.com/rotex-labs/rotex-wgpu", rev = "bca1270f2886fc1f2ac04cc6cd329035bc4a79cd", optional = true }
